@@ -22,4 +22,6 @@
 - controller和数据模型的设置
 - 运用promise处理post请求参数
 
-
+[6. 封装MySQL请求逻辑](封装MySQL请求逻辑.md)
+- db配置抽离
+- 请求过程promise封装
