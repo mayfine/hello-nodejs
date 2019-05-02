@@ -10,6 +10,8 @@ const blogAPIHanle = (req, res) => {
 
     // 博客详情
     if (req.method === 'GET' && req.path === '/api/blog/detail') {
+
+        console.log(req.headers.cookie)
         return {
             message: '这是博客详情接口'
         }
